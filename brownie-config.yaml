@@ -1,0 +1,9 @@
+networks:
+  default: mainnet-fork
+  mainnet-fork:
+    u_acc: "0x0D9326f283D8Ca7EEEA4d323d07a0C9c0ab1A192"  #accont holding WETH and 1inch with allowances on v4router
+    router: "0x11111112542D85B3EF69AE05771c2dCCff4fAa26"
+    tokenIn: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2" #WETH
+    tokenOut: "0x111111111117dc0aa78b770fa6a738034120c302" #1inch
+    amount: 1040442
+    slippage: 1
